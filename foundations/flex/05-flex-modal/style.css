@@ -22,6 +22,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  gap: 16px;
   padding: 15px;
 }
 
@@ -53,7 +54,6 @@ body {
   border: 1px solid #eee;
   padding: 0;
   flex-shrink: 0;
-  position: relative;
 }
 
 button {
@@ -77,13 +77,13 @@ button.cancel {
 
 .header{
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
 .text{
   font-size: 0.75em;
   margin: 10px 0;
-}
-
-.container{
-  margin-left: 20px;
 }
